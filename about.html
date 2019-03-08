@@ -28,6 +28,16 @@
 	.navbar-custom{
 		background-color:rgba(255,255,255,0);
 }
+	.navbar-absolute-top{
+		position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	background-color: transparent;
+	}
+	.is-wrapper .is-section:first-child{
+		padding-top:120px;
+	}	
 
 .navbar-toggle{
 	background-color:rgba(0,0,0,1);
@@ -106,7 +116,8 @@
 
 
 	<div class="navbar
-navbar-custom"
+			transparent navbar-absolute-top
+	navbar-custom"
 role="navigation" >
 	<div class="container">
 				<div class="row">
