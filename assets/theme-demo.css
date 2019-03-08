@@ -222,10 +222,7 @@ ul.nav.navbar-nav li:nth-child(1):before {
 .widget-cat-image-caption figure:hover img {
     
 }
-label.error {
-    position: absolute;
-    bottom: -60px;
-}
+
 .is-card h5:hover span {
     transform: scale(1);
 }
