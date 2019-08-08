@@ -1,40 +1,40 @@
 body{
 					font-family: Roboto;
 							font-size: 15px;
-			}
+							}
 	p{
 					font-family: Roboto;
 							font-size: 15px;
-			}
+							}
 	h1,.h1{
 					font-family: Roboto Condensed;
 							font-size: 45px;
-			}
+							}
 	h2,.h2{
 					font-family: Merriweather;
 							font-size: 35px;
-			}
+							}
 	h3,.h3{
 					font-family: Merriweather;
 							font-size: 23px;
-			}
+							}
 	h4,.h4{
 					font-family: Roboto Condensed;
 							font-size: 16px;
-			}
+							}
 	h5,.h5{
-					}
+									}
 	h6,.h6{
 					font-family: Merriweather;
 							font-size: 14px;
-			}
+							}
 	a{
-					}
+									}
 
 
 
 
-		
+	
 	.row img {
     display: block;
     text-align: center;
@@ -255,9 +255,6 @@ ul.nav.navbar-nav li:nth-child(1):before {
 .embed-responsive.embed-responsive-16by9 {
     padding-bottom: 86.25%;
 }
-.widget-cat-map.widget-cat-contact h3 {
-    margin-left: 15px;
-}
 a.navbar-brand.logo img {
     width: 100px;
     margin-top: -12px;
@@ -294,7 +291,66 @@ font-size: 28px;
     text-align: right;
     border: 0;
 }
-#form_3 .form_widget .error { 
+.form_widget .error {
     margin: 0;
 }
+
 	
+.navbar-custom{
+		background-color:rgba(179,171,175,0);
+}
+	.navbar-absolute-top{
+		position: absolute;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: transparent;
+	}
+
+.navbar-toggle{
+	background-color:rgba(0,0,0,1);
+}
+.header3 .slide-toggle span,.header4 .slide-toggle span{
+	
+}
+.navbar-custom .navbar-nav li a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(255,255,255,1);
+}
+.navbar-custom .navbar-nav li:hover > a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(255,255,255,0.5);
+}
+.navbar-custom .nav>li>a:focus, .navbar-custom .nav>li>a:hover, .navbar-custom .navbar-nav li.active a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(255,255,255,0.5);
+}
+.navbar-custom .navbar-nav li ul.sub-menu li a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,1);
+}
+.navbar-custom .navbar-nav li ul.sub-menu li:hover > a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,0.5);
+}
+.navbar-custom .nav li ul.sub-menu li a:focus, .navbar-custom .nav li ul.sub-menu li.active a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,0.5);
+}
+.sticky-wrapper.is-sticky .navbar-custom{
+	background-color:rgba(0,0,0,1);
+}
+.sticky-wrapper.is-sticky .navbar-custom .navbar-nav li a{
+	color:rgba(255,255,255,1);
+}
+.sticky-wrapper.is-sticky .navbar-custom .navbar-nav li:hover > a{
+	color:rgba(255,255,255,1);
+}
+.header3 .sliding .sliding-menu,.header4 .sliding .sliding-menu{
+	background-color:#eaeaea
+}
+@media (max-width: 768px){
+	.navbar-collapse{
+		background-color:rgba(0,0,0,0);
+	}
+}
